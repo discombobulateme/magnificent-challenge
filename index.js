@@ -1,34 +1,18 @@
-/*
-Pseudo-code:
-
-fails = 0
-Successes = 0
-while True:
-    success = check_server()
-    If success:
-        Successes += 1
-        Print("Check worked")
-    Else:
-        Fails += 1
-        Print ("check failed")
-    Print("total successes", successes, "total fails", fails)
-*/
-
 const fails = 0
 const successes = 0
 
-/*
-1. get user input in seconds
-How can user give an input?
-Should I write in the HTML?
 
-2. transform user input to miliseconds
+// 1. get user input in seconds
+const userIntervalCheckOption = Number(window.prompt("What is the time interval to check the server, in seconds?", ""));
+// add error message and repeat prompt if not a valid number
 
-3. check server
-how to check server? reload page?
+// 2. transform user input to miliseconds
 
+// 3. get user input from terminal to start application
+// how to do it from terminal?
 
-*/
+// 4. check server
+
 check_server(seconds) {
   // every x seconds, check server
   const userInterval = seconds
@@ -48,3 +32,7 @@ while (sucess == true) {
 }
 
 console.log(`Total of successes = ${successes}, total fails = ${fails}`)
+
+// end: user input -> stop application
+// how to do it from terminal?
+
