@@ -1,0 +1,11 @@
+// get user input
+Window.prompt() MDN <https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt>
+
+// How to request HTTP infos?
+Using XMLHttpRequest <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest>
+XMLHttpRequest MDN <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest>
+XMLHttpRequest.open() <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open>
+
+// Read data from a web server - after the page has loaded
+AJAX MDN https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
+AJAX w3 - Server Response <https://www.w3schools.com/XML/ajax_xmlhttprequest_response.asp>
