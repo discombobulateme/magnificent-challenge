@@ -1,9 +1,9 @@
-@startuml Check server overall
+@startuml Application description
 
 start
 
-:Start: User starts server;
 :Set Interval: user sets time interval in seconds to check server;
+:Start: User starts application;
 :Transform Seconds in Miliseconds;
 :Check server: get server response;
 if (Server failled?) then (yes)
@@ -13,9 +13,9 @@ else (no)
 ' repeat
   :Send sucess message;
   :Add success to count;
-' repeat while (server is running)
+' repeat while (application is running)
 endif
-  :User stops server;
+  :User stops application;
 stop
 
 @enduml
