@@ -2,6 +2,12 @@
 const axios = require("axios");
 
 // define the server check interval time
+function checkServer(userIntervalTime) {
+  // transforms user parameter in seconds into setInterval miliseconds, as needed
+  intervalTime = userIntervalTime * 1000;
+
+  setInterval(() => {
+    // access server response
 }
 
 makeHeadRequest();
