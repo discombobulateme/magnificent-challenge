@@ -4,6 +4,7 @@ Window.prompt() MDN <https://developer.mozilla.org/en-US/docs/Web/API/Window/pro
 How do I prompt users for input from a command-line script? <https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/>
 Getting User Input in Node.js <https://www.codecademy.com/articles/getting-user-input-in-node-js>
 Output to the command line using Node.js <https://nodejs.dev/learn/output-to-the-command-line-using-nodejs>
+process.argv = property returns an array containing the command line arguments passed when the Node.js process was launched <https://nodejs.org/api/process.html#process_process_argv>
 
 // How to request HTTP infos?
 Using XMLHttpRequest <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest>
