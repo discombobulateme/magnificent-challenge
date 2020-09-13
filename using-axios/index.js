@@ -30,18 +30,6 @@ function checkServer(userIntervalTime) {
         console.log("failed 😟");
         fails++;
       }
-
-      // while (successes == true) {
-      //   successes = check_server();
-      //   if (successes) {
-      //     successes += 1;
-      //     console.log("server is working");
-      //   } else {
-      //     fails += 1;
-      //     console.log("server failed");
-      //   }
-
-      // console.log(`Total of successes = ${successes}, total fails = ${fails}`);
     }
     makeServerHeadRequest();
   }, intervalTime);
