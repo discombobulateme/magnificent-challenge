@@ -1,9 +1,9 @@
-# What this application does?
+# What does this application do?
 This is an application that monitors the health of the Magnificent Server.<br>
-This is a Node.js application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js.<br>
-User will run it on the terminal, and give it a parameter the # of seconds to wait between checks to the server.<br>
-A clear message on the terminal will tell if the server has failed or not.<br>
-It will also tell how many times the server has failed and how many times it has responded successfully. 
+This is a Node.js application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js<br>
+User will run it on the terminal, and give it as a parameter the # of seconds to wait between checks to the server<br>
+A clear message on the terminal will tell if the server has failed or not<br>
+It will also tell how many times the server has failed and how many times it has responded successfully
 
 # How to run this application?
 1. Clone and download this repository (or fork, than clone, which would be better)
@@ -20,14 +20,13 @@ Navigate with terminal to your chosen folder and run `git clone https://github.c
 2. pip install twisted
 3. python server.py
 4. Okay, now you're running magnificent!
-5. Visit http://localhost:12345 in a web browser or something
+5. Visit http://localhost:12345 in a web browser
 6. It should throw a verbose error, or return "Magnificent!"
 
 ## Run the application passing a parameter
 1. Install project dependencies `npm install`
-2. You are required to give a paramenter in number of seconds
-3. Run the application `node index.js <your numerical chosen parameter in seconds>`
-4. To exit the application type: CTRL + C
+2. Run the application, passing a parameter for the # of seconds between checks `node index.js <your numerical chosen parameter in seconds>`
+3. To exit the application type: CTRL + C
 
 ### Error handling
 You can just run the application using `node index.js`, or give no paramenter, but there will be no set interval.<br>
