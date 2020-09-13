@@ -16,8 +16,8 @@ function checkServer(userIntervalTime) {
       const serverStatus = `${res.status}`;
 
       console.log(`Status: ${res.status}`);
-      console.log(`Server: ${res.headers.server}`);
-      console.log(`Date: ${res.headers.date}`);
+      // console.log(`Server: ${res.headers.server}`);
+      // console.log(`Date: ${res.headers.date}`);
     }
     makeServerHeadRequest();
   }, intervalTime);
