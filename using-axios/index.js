@@ -1,3 +1,4 @@
+// this files get the server requests
 const axios = require("axios");
 
 async function makeHeadRequest() {
