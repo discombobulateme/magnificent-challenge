@@ -6,6 +6,11 @@ const axios = require("axios");
 // 2. get user input in seconds
 // 3. transform user input to miliseconds
 
+// define the server check interval time
+function checkServer() {
+  interval = setInterval(() => {}, intervalTime);
+}
+
 async function makeHeadRequest() {
   let res = await axios.head("http://localhost:12345");
 
