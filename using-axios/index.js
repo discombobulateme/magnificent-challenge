@@ -23,9 +23,11 @@ function checkServer(userIntervalTime) {
       if (`${res.status}` === "200") {
         successes++;
         console.log("success! 🥳", successes);
-      } else {
+      } else if (`${error.response}`) {
         console.log("failed 😟");
         fails++;
+      } else {
+        console.log("that's weird 😟");
       }
       console.log(`Total of successes = ${successes}, total fails = ${fails}`);
     }
