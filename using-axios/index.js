@@ -9,7 +9,8 @@ function checkServer(userIntervalTime) {
   setInterval(() => {
     // access server response
     async function makeServerHeadRequest() {
-      let res = await axios.head("http://localhost:12345");
+      const res = await axios.head("http://localhost:12345");
+
 
       console.log(`Status: ${res.status}`);
       console.log(`Server: ${res.headers.server}`);
