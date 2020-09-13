@@ -2,8 +2,8 @@
 
 start
 
-:Set Interval: user sets time interval in seconds to check server;
 :Start: User starts application;
+:Set Interval: user sets time interval in seconds to check server;
 :Transform Seconds in Miliseconds;
 :Check server: get server response;
 if (Server failled?) then (yes)
