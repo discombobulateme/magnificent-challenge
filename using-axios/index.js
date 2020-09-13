@@ -11,6 +11,8 @@ function checkServer() {
   interval = setInterval(() => {}, intervalTime);
 }
 
+// 4. access server response
+
 async function makeHeadRequest() {
   let res = await axios.head("http://localhost:12345");
 
