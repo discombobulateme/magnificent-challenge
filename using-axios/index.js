@@ -18,6 +18,10 @@ function checkServer(userIntervalTime) {
       console.log(`Status: ${res.status}`);
       // console.log(`Server: ${res.headers.server}`);
       // console.log(`Date: ${res.headers.date}`);
+
+      // verify status, transform it into a message
+      // output the message
+      // count the response
     }
     makeServerHeadRequest();
   }, intervalTime);
