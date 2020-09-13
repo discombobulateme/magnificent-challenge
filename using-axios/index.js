@@ -19,7 +19,10 @@ function checkServer(userIntervalTime) {
   }, intervalTime);
 }
 
-makeHeadRequest();
+// get user parameter from terminal to start application
+// ? How do you put parameters into apps running in the terminal?
+// get user input in seconds
+checkServer(20);
 
 /*
 // axios basic api
