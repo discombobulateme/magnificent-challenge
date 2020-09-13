@@ -43,7 +43,7 @@ async function makeRequest() {
 makeRequest();
 */
 
-// 5. listen to response, send response and count the response
+// listen to response, send response and count the response
 const fails = 0;
 const successes = 0;
 
