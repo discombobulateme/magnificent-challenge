@@ -24,11 +24,11 @@ function checkServer(userIntervalTime) {
       // output the message
       // count the response
       if (`${res.status}` === "200") {
-        console.log("success! 🥳");
-      } else if (`${res.status}` === "500") {
-        console.log("failed 😟");
+        successes++;
+        console.log("success! 🥳", successes);
       } else {
-        console.log("that's a weird status... 🤨");
+        console.log("failed 😟");
+        fails++;
       }
 
       // while (successes == true) {
