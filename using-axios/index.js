@@ -26,48 +26,6 @@ function checkServer(userIntervalTime) {
 // get user parameter from terminal to start application
 // ? How do you put parameters into apps running in the terminal?
 // get user input in seconds
-checkServer(20);
-
-/*
-// axios basic api
-const axios = require('axios');
-
-async function makeRequest() {
-
-    const config = {
-        method: 'get',
-        url: 'http://webcode.me'
-    }
-
-    let res = await axios(config)
-
-    console.log(res.status);
-}
-
-makeRequest();
-*/
-
-// listen to response, send response and count the response
-const fails = 0;
-const successes = 0;
-
-function check_server(seconds) {
-  const userInterval = seconds;
-  setInterval(seconds * 1000);
-
-  while (sucess == true) {
-    success = check_server();
-    if (success) {
-      successes += 1;
-      console.log("server is working");
-    } else {
-      fails += 1;
-      console.log("server failed");
-    }
-  }
-}
-
-console.log(`Total of successes = ${successes}, total fails = ${fails}`);
 
 // stops checking and end application
 function stopCheckServer() {
