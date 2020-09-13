@@ -5,8 +5,9 @@ const axios = require("axios");
 function checkServer(userIntervalTime) {
   // transforms user parameter in seconds into setInterval miliseconds, as needed
   intervalTime = userIntervalTime * 1000;
-  const fails = 0;
-  const successes = 0;
+
+  let fails = 0;
+  let successes = 0;
 
   setInterval(() => {
     // access server response
