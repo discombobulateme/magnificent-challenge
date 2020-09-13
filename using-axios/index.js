@@ -39,7 +39,7 @@ function checkServer(userIntervalTime) {
 // get user parameter from terminal to start application
 // ? How do you put parameters into apps running in the terminal?
 // get user input in seconds
-checkServer(5);
+checkServer(3);
 
 // stops checking and end application
 // function stopCheckServer() {
