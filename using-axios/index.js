@@ -22,6 +22,14 @@ function checkServer(userIntervalTime) {
       // verify status, transform it into a message
       // output the message
       // count the response
+      if (`${res.status}` === "200") {
+        console.log("success! 🥳");
+      } else if (`${res.status}` === "500") {
+        console.log("failed 😟");
+      } else {
+        console.log("that's a weird status... 🤨");
+      }
+
     }
     makeServerHeadRequest();
   }, intervalTime);
