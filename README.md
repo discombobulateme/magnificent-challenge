@@ -1,8 +1,8 @@
 # What this application does?
-This is an application that monitors the health of the Magnificent Server.
-This is a Node.js application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js. 
-User will run it on the terminal, and give it a parameter the # of seconds to wait between checks to the server.
-A clear message on the terminal will tell if the server has failed or not.
+This is an application that monitors the health of the Magnificent Server.<br>
+This is a Node.js application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js.<br>
+User will run it on the terminal, and give it a parameter the # of seconds to wait between checks to the server.<br>
+A clear message on the terminal will tell if the server has failed or not.<br>
 It will also tell how many times the server has failed and how many times it has responded successfully. 
 
 # How to run this application?
@@ -30,8 +30,8 @@ Navigate with terminal to your chosen folder and run `git clone https://github.c
 4. To exit the application type: CTRL + C
 
 ### Error handling
-You can just run the application using `node index.js`, or give no paramenter, but there will be no set interval.
-That means the program will run absurdly fast and reach 50.000 count in a split of a second 😲
+You can just run the application using `node index.js`, or give no paramenter, but there will be no set interval.<br>
+That means the program will run absurdly fast and reach 50.000 count in a split of a second 😲 <br>
 Just exit with typing `Ctrl +C` and restart using the proper parameter
 
 # Research references
