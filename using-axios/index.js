@@ -64,3 +64,10 @@ function check_server(seconds) {
 
 console.log(`Total of successes = ${successes}, total fails = ${fails}`);
 
+// stops checking and end application
+function stopCheckServer() {
+  clearInterval(interval);
+}
+
+// end: user input -> stop application
+// how to do it from terminal?
