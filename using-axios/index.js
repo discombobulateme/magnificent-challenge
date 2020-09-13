@@ -12,8 +12,19 @@ function checkServer(userIntervalTime) {
   setInterval(() => {
     // access server response
     async function makeServerHeadRequest() {
+      axios
+        .get("http://localhost:12345")
+        .then((response) => {
+          successes++;
+          console.log("Success!!! 🥳");
+        })
+        .catch((error) => {
+          console.log("Failed 😟 😢");
+          fails++;
+        });
       console.log(`Total of successes = ${successes}, total fails = ${fails}`);
     }
+
     makeServerHeadRequest();
   }, intervalTime);
 }
