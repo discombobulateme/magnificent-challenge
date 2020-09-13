@@ -1,5 +1,6 @@
 // this files get the server requests
 const axios = require("axios");
+const process = require("process");
 
 // define the server check interval time
 function checkServer(userIntervalTime) {
