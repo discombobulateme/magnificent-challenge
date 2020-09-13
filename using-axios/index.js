@@ -52,9 +52,9 @@ function checkServer(userIntervalTime) {
 checkServer(5);
 
 // stops checking and end application
-function stopCheckServer() {
-  clearInterval(interval);
-}
+// function stopCheckServer() {
+//   clearInterval(intervalTime);
+// }
 
 // end: user input -> stop application
 // how to do it from terminal?
