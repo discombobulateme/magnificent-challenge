@@ -1,0 +1,21 @@
+@startuml Application description
+
+start
+
+:Start: User starts application;
+:Set Interval: user sets time interval in seconds to check server;
+:Transform Seconds in Miliseconds;
+:Check server: get server response;
+if (Server failled?) then (yes)
+  :Send fail message;
+  :Add fail to count;
+else (no)
+' repeat
+  :Send sucess message;
+  :Add success to count;
+' repeat while (application is running)
+endif
+  :User stops application;
+stop
+
+@enduml
