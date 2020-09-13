@@ -33,10 +33,3 @@ function checkServer(userIntervalTime) {
 // index 2 = argument -> process.argv [application = node, file = index.js, argument]
 checkServer(process.argv[2]);
 
-// stops checking and end application
-// function stopCheckServer() {
-//   clearInterval(intervalTime);
-// }
-
-// end: user input -> stop application
-// how to do it from terminal?
