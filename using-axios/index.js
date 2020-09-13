@@ -33,3 +33,4 @@ function checkServer(userIntervalTime) {
 // index 2 = argument -> process.argv [application = node, file = index.js, argument]
 checkServer(process.argv[2]);
 
+// end: stop application
