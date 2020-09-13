@@ -20,9 +20,6 @@ function checkServer(userIntervalTime) {
       // console.log(`Server: ${res.headers.server}`);
       // console.log(`Date: ${res.headers.date}`);
 
-      // verify status, transform it into a message
-      // output the message
-      // count the response
       if (`${res.status}` === "200") {
         successes++;
         console.log("success! 🥳", successes);
