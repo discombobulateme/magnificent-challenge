@@ -30,6 +30,7 @@ function checkServer(userIntervalTime) {
         console.log("failed 😟");
         fails++;
       }
+      console.log(`Total of successes = ${successes}, total fails = ${fails}`);
     }
     makeServerHeadRequest();
   }, intervalTime);
