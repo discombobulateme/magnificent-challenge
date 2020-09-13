@@ -42,3 +42,25 @@ async function makeRequest() {
 makeRequest();
 */
 
+// 5. listen to response, send response and count the response
+const fails = 0;
+const successes = 0;
+
+function check_server(seconds) {
+  const userInterval = seconds;
+  setInterval(seconds * 1000);
+
+  while (sucess == true) {
+    success = check_server();
+    if (success) {
+      successes += 1;
+      console.log("server is working");
+    } else {
+      fails += 1;
+      console.log("server failed");
+    }
+  }
+}
+
+console.log(`Total of successes = ${successes}, total fails = ${fails}`);
+
