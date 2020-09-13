@@ -1,5 +1,9 @@
 // How to get user input
+// or: How do you put parameters into apps running in the terminal?
 Window.prompt() MDN <https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt>
+How do I prompt users for input from a command-line script? <https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/>
+Getting User Input in Node.js <https://www.codecademy.com/articles/getting-user-input-in-node-js>
+Output to the command line using Node.js <https://nodejs.dev/learn/output-to-the-command-line-using-nodejs>
 
 // How to request HTTP infos?
 Using XMLHttpRequest <https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest>
@@ -17,3 +21,6 @@ Axios tutorial <http://zetcode.com/javascript/axios/>
 
 // Installing nodemon
 Nodemon npm <https://www.npmjs.com/package/nodemon>
+
+// setInterval implementation
+WindowOrWorkerGlobalScope.setInterval() <https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval>
