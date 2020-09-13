@@ -12,23 +12,6 @@ function checkServer(userIntervalTime) {
   setInterval(() => {
     // access server response
     async function makeServerHeadRequest() {
-      const res = await axios.head("http://localhost:12345");
-
-      const serverStatus = `${res.status}`;
-
-      console.log(`Status: ${res.status}`);
-      // console.log(`Server: ${res.headers.server}`);
-      // console.log(`Date: ${res.headers.date}`);
-
-      if (`${res.status}` === "200") {
-        successes++;
-        console.log("success! 🥳", successes);
-      } else if (`${error.response}`) {
-        console.log("failed 😟");
-        fails++;
-      } else {
-        console.log("that's weird 😟");
-      }
       console.log(`Total of successes = ${successes}, total fails = ${fails}`);
     }
     makeServerHeadRequest();
