@@ -1,6 +1,8 @@
 const axios = require("axios");
-const process = require("process");
-
+// process gets a parameter in the start of the application
+// || sets the default
+// [] add type check to verify if user input is correct
+const interval = (process.argv[2] || 1) * 1000;
 // define the server check interval time
 
 
