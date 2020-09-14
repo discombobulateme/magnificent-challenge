@@ -14,4 +14,7 @@ const interval = (process.argv[2] || 1) * 1000;
 // index 2 = argument -> process.argv [application = node, file = index.js, argument]
 checkServer(process.argv[2]);
 
+// [] Exporting checkServer() for unit test framework
+// [] In order to do that checkServer should not be called immediately, only if (require.main === module) { (https://nodejs.org/api/modules.html#modules_accessing_the_main_module)
+// [] add unit test
 // end: stop application
