@@ -12,7 +12,7 @@ It will also tell how many times the server has failed and how many times it has
 💻 This is a [Node.js](https://nodejs.org/en/) application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js<br>
 This is a simple software architecture demonstrating how the application should work:
 <p align="center">
-  <img width="460" height="auto" src="magnificent-software-architecture.png">
+  <img width="360" height="auto" src="magnificent-software-architecture.png">
 </p>
 
 # How to run this application?
