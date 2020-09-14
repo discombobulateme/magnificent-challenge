@@ -5,6 +5,8 @@ const axios = require("axios");
 const interval = (process.argv[2] || 1) * 1000;
 // define the server check interval time
 
+let fails = 0;
+let successes = 0;
 
 setInterval(async () => {
   // access server response
