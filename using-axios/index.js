@@ -17,4 +17,3 @@ checkServer(process.argv[2]);
 // [] Exporting checkServer() for unit test framework
 // [] In order to do that checkServer should not be called immediately, only if (require.main === module) { (https://nodejs.org/api/modules.html#modules_accessing_the_main_module)
 // [] add unit test
-// end: stop application
