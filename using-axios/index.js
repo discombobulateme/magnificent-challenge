@@ -12,9 +12,6 @@ setInterval(async () => {
     // get just the header (return) and not the full body
     // [] add variable to the url
     await axios.head("http://localhost:12345");
-    makeServerHeadRequest();
-  }, intervalTime);
-}
 
     successes++;
     console.log("Success!!! 🥳");
