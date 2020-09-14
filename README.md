@@ -5,6 +5,10 @@ User will run it on the terminal, and give it as a parameter the # of seconds to
 A clear message on the terminal will tell if the server has failed or not<br>
 It will also tell how many times the server has failed and how many times it has responded successfully
 
+<p align="center">
+  <img alt="App simulation gif" src="magnificent-challenge.gif">
+</p>
+
 # How to run this application?
 1. Clone and download this repository (or fork, than clone, which would be better)
 Navigate with terminal to your chosen folder and run `git clone https://github.com/discombobulateme/magnificent-challenge`
