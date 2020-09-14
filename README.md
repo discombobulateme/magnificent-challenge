@@ -1,12 +1,18 @@
 # What does this application do?
 This is an application that monitors the health of the Magnificent Server.<br>
-This is a Node.js application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js<br>
 User will run it on the terminal, and give it as a parameter the # of seconds to wait between checks to the server<br>
 A clear message on the terminal will tell if the server has failed or not<br>
 It will also tell how many times the server has failed and how many times it has responded successfully
 
 <p align="center">
   <img alt="App simulation gif" src="magnificent-challenge.gif">
+</p>
+
+# How does it works?
+💻 This is a [Node.js](https://nodejs.org/en/) application that uses [axios](https://www.npmjs.com/package/axios), a promise based HTTP client for the browser and node.js<br>
+This is a simple software architecture demonstrating how the application should work:
+<p align="center">
+  <img width="460" height="300" src="magnificent-software-architecture.png">
 </p>
 
 # How to run this application?
