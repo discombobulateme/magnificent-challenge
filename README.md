@@ -45,27 +45,27 @@ Please edit this documentation in case an error is found 🙃
 # Research references
 Following there's a list of useful links that helped me build this application
 <br>
-- How do you put parameters into apps running in the terminal?
-[Window.prompt() MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-[How do I prompt users for input from a command-line script?](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
-[Getting User Input in Node.js](https://www.codecademy.com/articles/getting-user-input-in-node-js)
-[Output to the command line using Node.js](https://nodejs.dev/learn/output-to-the-command-line-using-nodejs)
-[process.argv = property returns an array containing the command line arguments passed when the Node.js process was launched](https://nodejs.org/api/process.html#process_process_argv)
+- How do you put parameters into apps running in the terminal?<br>
+[Window.prompt() MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)<br>
+[How do I prompt users for input from a command-line script?](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)<br>
+[Getting User Input in Node.js](https://www.codecademy.com/articles/getting-user-input-in-node-js)<br>
+[Output to the command line using Node.js](https://nodejs.dev/learn/output-to-the-command-line-using-nodejs)<br>
+[process.argv = property returns an array containing the command line arguments passed when the Node.js process was launched](https://nodejs.org/api/process.html#process_process_argv)<br>
 
-- How to request HTTP infos?
-[Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
-[XMLHttpRequest MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
-[XMLHttpRequest.open()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open)
+- How to request HTTP infos?<br>
+[Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)<br>
+[XMLHttpRequest MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)<br>
+[XMLHttpRequest.open()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open)<br>
 
-- Using AJAX -> Read data from a web server - after the page has loaded
-[AJAX MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
-[AJAX w3 - Server Response](https://www.w3schools.com/XML/ajax_xmlhttprequest_response.asp)
+- Using AJAX -> Read data from a web server - after the page has loaded<br>
+[AJAX MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)<br>
+[AJAX w3 - Server Response](https://www.w3schools.com/XML/ajax_xmlhttprequest_response.asp)<br>
 
-- Using AXIOS -> Promise based HTTP client for the browser and node.js
-[Axios](https://www.npmjs.com/package/axios)
-[How to use Axios to send HTTP requests in vanilla JavaScript](https://attacomsian.com/blog/axios-javascript)
-[Axios tutorial](http://zetcode.com/javascript/axios/)
-[Axios examples on how to use with async/await instead of Promise](https://github.com/axios/axios#example)
+- Using AXIOS -> Promise based HTTP client for the browser and node.js<br>
+[Axios](https://www.npmjs.com/package/axios)<br>
+[How to use Axios to send HTTP requests in vanilla JavaScript](https://attacomsian.com/blog/axios-javascript)<br>
+[Axios tutorial](http://zetcode.com/javascript/axios/)<br>
+[Axios examples on how to use with async/await instead of Promise](https://github.com/axios/axios#example)<br>
 
 - setInterval implementation
 [WindowOrWorkerGlobalScope.setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
