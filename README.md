@@ -39,9 +39,8 @@ Navigate with terminal to your chosen folder and run `git clone https://github.c
 3. To exit the application type: CTRL + C
 
 ### Error handling
-You can just run the application using `node index.js`, or give no paramenter, but there will be no set interval.<br>
-That means the program will run absurdly fast and reach 50.000 count in a split of a second 😲 <br>
-Just exit with typing `Ctrl +C` and restart using the proper parameter
+No error are know so far, as there is a default time interval settled for 1 second.<br> 
+Please edit this documentation in case an error is found 🙃
 
 # Research references
 Following there's a list of useful links that helped me build this application
@@ -66,6 +65,7 @@ Following there's a list of useful links that helped me build this application
 [Axios](https://www.npmjs.com/package/axios)
 [How to use Axios to send HTTP requests in vanilla JavaScript](https://attacomsian.com/blog/axios-javascript)
 [Axios tutorial](http://zetcode.com/javascript/axios/)
+[Axios examples on how to use with async/await instead of Promise](https://github.com/axios/axios#example)
 
 - setInterval implementation
 [WindowOrWorkerGlobalScope.setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
